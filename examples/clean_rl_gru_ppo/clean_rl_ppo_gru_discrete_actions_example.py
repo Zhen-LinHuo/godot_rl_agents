@@ -18,9 +18,10 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import tyro
-from godot_rl.wrappers.clean_rl_wrapper import CleanRLGodotEnv
 from torch.distributions.categorical import Categorical
 from torch.utils.tensorboard import SummaryWriter
+
+from godot_rl.wrappers.clean_rl_wrapper import CleanRLGodotEnv
 
 
 @dataclass
