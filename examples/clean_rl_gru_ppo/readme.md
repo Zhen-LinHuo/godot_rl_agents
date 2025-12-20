@@ -3,6 +3,8 @@
 This example is a modification of [CleanRL PPO Atari LSTM](https://github.com/vwxyzjn/cleanrl/blob/master/cleanrl/ppo_atari_lstm.py),
 it's adjusted to work with GDRL and vector obs, along with adding inference, changing the default params, and other modifications.
 
+You may need to install tyro using `pip install tyro`. If you get an error while running the script: `ModuleNotFoundError: No module named 'tyro'`, install it.
+
 ## Observations:
 - Works with vector observations.
 
